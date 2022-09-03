@@ -8,14 +8,6 @@ window.onscroll=function(){
         nav.classList.remove("scroll-on");
     }
 }
-//Nav Hide
-
-let navBar=document.querySelectorAll(".nav-link");
-let navCollapse=document.querySelector(".navbar-Collapse").forEach((a)=>{
-    a.addEventListener("click",function(){
-        navCollapse.classList.remove("show");
-    });
-});
 
 //Counter Design
 
@@ -37,4 +29,14 @@ document.addEventListener("DOMContentLoaded",()=>{
     counter("count2",0,800,800);
     counter("count3",0,790,800);
     counter("count4",0,450,800);
+});
+
+
+//Nav Hide
+
+let navBar=document.querySelectorAll(".nav-link");
+let navCollapse=document.querySelector(".navbar-Collapse").forEach((a)=>{
+    a.addEventListener("click",function(){
+        navCollapse.classList.remove("show");
+    });
 });
