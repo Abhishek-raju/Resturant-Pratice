@@ -424,6 +424,20 @@ FAQ section Design
     margin-right: 0.3125rem;
 }
 
+/* 
+=======================
+Book Food section Design
+=======================
+*/
+
+.book-food{
+    width: 100%;
+    background: url(../images/bg/bg-3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:0 71.912px;
+    padding: 4.375rem 0;
+}
 
 
 
