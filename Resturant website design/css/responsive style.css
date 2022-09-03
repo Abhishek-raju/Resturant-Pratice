@@ -31,12 +31,12 @@
     }
 
 
-    /*  Story Section  */
-    
-
-
     /*  Carousel design   */
- 
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding: 0; 
+    }
+
+
 }
 
 @media(max-width:767px){
@@ -63,7 +63,9 @@
     }
 
     /*  Carousel design   */
- 
+    .testimonial-section .carousel-item{
+        padding: 11rem 3.12rem; 
+    }
 
     /*  Newsletter  */
  
@@ -76,7 +78,9 @@
 @media(max-width:330px){
 
     /*  Carousel Design   */
-
+    .testimonial-section .carousel-item{
+        padding: 14rem 3.125rem; 
+    }
 }
 
 
