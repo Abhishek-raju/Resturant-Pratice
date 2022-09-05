@@ -461,7 +461,9 @@ Book Food section Design
 
 .newsletter .form-control:hover,
 .newsletter .form-control:focus{
-    
+    outline:none;
+    box-shadow: none;
+    border-color: var(--primary-color);
 }
 
 
