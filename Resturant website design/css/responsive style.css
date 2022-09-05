@@ -78,7 +78,10 @@
     }
 
     /*  Footer Link   */
- 
+    .footer .footer-link,
+    .footer a i{
+        padding:0.7rem;
+    }
 }
 
 
